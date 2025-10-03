@@ -19,6 +19,22 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="glass rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
+            <h2 className="text-xl font-bold mb-4">Education</h2>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                Completed a 4-month intensive Front-End Web Development program at ALX Africa, focusing on HTML, CSS, JavaScript (ES6+), React, responsive design, and version control with Git.
+              </li>
+              <li>
+                Currently studying at the Ibn Khaldoun Group of Management and Computer Science Institutes, pursuing a Technician specialization in IT Development.
+              </li>
+            </ul>
+          </div>
+          <div className="glass rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
+            <h2 className="text-xl font-bold mb-4">Work Experience</h2>
+          </div>
+        </div>
       </div>
     </section>
   )
